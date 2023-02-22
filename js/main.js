@@ -145,6 +145,7 @@ let app = new Vue({
                     count++
                 }
             }
+            return count
         },
         favoriteRace() {
             let max = 'zerg'
